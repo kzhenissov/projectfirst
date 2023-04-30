@@ -60,6 +60,7 @@ body {
     line-height: 38px;
     margin-bottom: 30px;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .menu {
@@ -182,4 +183,30 @@ body {
 
 .final__img {
     width: 100%;
+}
+
+/* team section */
+.team {
+    margin-bottom: 70px;
+}
+
+.team__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__content {
+    max-width: 438px;
+}
+
+.title {}
+
+.team__text {
+    max-width: 352px;
+}
+.team__text + .team__text {
+    margin-top: 30px;
+}
+.team__img {
+    margin-left: 20px;
 }
